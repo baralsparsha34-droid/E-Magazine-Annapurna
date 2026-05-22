@@ -228,7 +228,7 @@ html{
 
 .Hero_Magazine{
     height: calc(100vh - 70px);
-    background-image: url(/images/Magazine/Hero_Magzine.jpg);
+    background-image: url(/images/Magazine/Hero_Magazine.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100% 100%;
