@@ -300,7 +300,7 @@ html{
 }
 
 .Profile_Photo{
-    height: auto;
+    height: 75%;
     width: auto;
     box-shadow: 1px 1px 6px var(--dark_bg);
 }
