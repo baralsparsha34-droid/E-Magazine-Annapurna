@@ -3,5 +3,30 @@
         "memory":"Lovely Annapurna House",
         "content":"/images/Captures/House.jpg",
         "type":"ph"
+    },
+    {
+        "memory":"Sulav Thapa's Effort",
+        "content":"/images/Captures/img1.jpg",
+        "type":"ph"
+    },
+    {
+        "memory":"Reejan Basnet Trying Suit",
+        "content":"/images/Captures/img2.jpg",
+        "type":"ph"
+    },
+    {
+        "memory":"Reejan Basnet's Effort",
+        "content":"/images/Captures/img3.jpg",
+        "type":"ph"
+    },
+    {
+        "memory":"Emanual Tulachan's Effort",
+        "content":"/images/Captures/img4.jpg",
+        "type":"ph"
+    },
+    {
+        "memory":"Blue Color Magazine",
+        "content":"/images/Captures/img5.jpg",
+        "type":"ph"
     }
 ]
