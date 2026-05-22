@@ -25,7 +25,7 @@ export class Magazine_Loader{
                     tempMagazine=`
 
                     <div class="Magazine_Content Profile flex col selected" id="${Color.color}">
-                        <p class="Magazine_text main_text">${Color.color}-Wall Magazine</p>
+                        <p class="Magazine_text main_text">${Color.color} Color-Wall Magazine</p>
                         <div class="Profile_Photo Magazine_Photo flex">
                             <div class="Color_Magazine_Photo">
                                 <img src="${Color.Photo}" alt="${Color.color}-Wall Magazine Photo">
@@ -45,7 +45,7 @@ export class Magazine_Loader{
                     tempMagazine=`
 
                     <div class="Profile flex col fly_hover" id="${Color.color}">
-                        <p class="Magazine_text main_text">${Color.color}-Wall Magazine</p>
+                        <p class="Magazine_text main_text">${Color.color} Color -Wall Magazine</p>
                         <div class="Profile_Photo Magazine_Photo flex">
                             <div class="Color_Magazine_Photo">
                                 <img src="${Color.Photo}" alt="${Color.color}-Wall Magazine Photo">
