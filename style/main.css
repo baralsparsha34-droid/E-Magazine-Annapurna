@@ -300,7 +300,7 @@ html{
 }
 
 .Profile_Photo{
-    height: 75%;
+    height: auto;
     width: auto;
     box-shadow: 1px 1px 6px var(--dark_bg);
 }
@@ -343,8 +343,13 @@ html{
     gap:var(--more_gap);
 }
 
+.Magazine_Content_div p{
+    width: 80%;
+}
+
 .Magazine_Photo{
-    width: 90%;
+    height: 65%;
+    width: 80%;
 }
 
 .Magazine_Photo img{
@@ -510,11 +515,11 @@ html{
     }
 
     .Magazine_Content_div .Profile{
-        height: 100vh;
+        height: 140vh;
     }
 
     .Magazine_Photo{
-        height: 70%;
+        height: 75%;
         flex-direction: column !important;
         justify-content: center;
         align-items: center;
@@ -536,7 +541,7 @@ html{
     }
 
     .Magazine_Content.selected{
-        height:140vh;
+        height: 150vh;
     }
 
 }
