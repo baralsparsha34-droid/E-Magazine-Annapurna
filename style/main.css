@@ -388,23 +388,16 @@ html{
 }
 
 .Memory_content{
-    width: 80%;
+    width: auto;
     height: 80%;
     overflow: hidden;
-    object-position: center;
-    object-fit: cover;
 }
 
 .Memory_content video{
+    height: 100%;
+    width: 100%;
     width: 100%;
     object-fit: cover;
-
-}
-
-.Memory_content video,.Memory_content img{
-    height: 100%;
-    max-width: 100%;
-    object-position: center;
 }
 
 /* About Style  */
