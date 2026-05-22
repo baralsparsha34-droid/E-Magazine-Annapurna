@@ -1,0 +1,559 @@
+/* Declaring Animations  */
+
+@keyframes scroll {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-20%);
+    }
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/* Declaring Variables  */
+
+:root{
+
+    /* Colors Varaiables  */
+
+    --main_color:rgba(00,100,255,1);
+    --sub_color:rgba(255,00,50);
+    --info_color:rgba(00,255,50,1);
+    --soft_color:rgba(200,200,200,1);
+    --bright_color:rgba(255,255,255,1);
+
+    /* Bg Colors Varaiables  */
+
+    --dark_bg:rgba(00,00,00,1);
+    --blue_bg:rgba(00,00,255,1);
+    --skin_bg:rgba(250,190,190,1);
+    --grey_bg:var(--soft_color);
+    
+
+    /* Font size Variables  */
+
+    --main_font:3rem;
+    --sub_font:1.5rem;
+    --info_font:1.2rem;
+
+    /* Other Variables  */
+
+    --fly_hover:translateY(-15px);
+    --more_gap:50px;
+    --med_gap:25px;
+    --less_gap:15px;
+
+}
+
+/* Global Styles  */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.flex{
+    display: flex !important;
+}
+
+.col{
+    flex-direction: column;
+}
+
+.hidden{
+    display: none !important;
+}
+
+.wrap{
+    flex-wrap: wrap !important;
+}
+
+.fly_hover{
+    transform: translateX(0);
+    transition: all 0.35s ease-in;
+}
+
+.fly_hover:hover{
+    transform: var(--fly_hover);
+}
+
+.main_text{
+    color: var(--main_color);
+    font-size: var(--main_font);
+    font-weight: 900;
+}
+
+.sub_text{
+    color: var(--sub_color);
+    font-size: var(--sub_font);
+    font-weight: 700;
+}
+
+.info_text{
+    color: var(--info_color);
+    font-size: var(--info_font);
+    font-weight: 900;
+}
+
+/* Header Style  */
+
+.main_header{
+    height: 70px;
+    width: 100%;
+    background-color: var(--dark_bg);
+    top: 0px;left: 0px;right: 0px;
+    position: sticky;
+    z-index: 2;
+}
+
+.main_header.scrolled{
+    background-color: var(--grey_bg);
+}
+
+.main_header.scrolled .nav_list{
+    background-color: var(--grey_bg);
+}
+
+.main_header.scrolled .nav_list .nav_links{
+    color: var(--dark_bg);
+}
+
+.main_header.scrolled .hamburger_icon{
+    color: var(--dark_bg);
+}
+
+.nav_bar{
+    height: 100%;
+    padding: 0 1%;
+    justify-content: space-between;
+    align-items: center;
+    gap:var(--med_gap);
+}
+
+.nav_list{
+
+    height: auto;
+    width: auto;
+    align-items: center;
+    padding:0 2% ;
+    list-style: none;
+    gap:var(--med_gap);
+    background-color: var(--dark_bg);
+
+}
+
+.hamburger_icon{
+    color: var(--soft_color);
+    font-size: 0px;
+    
+}
+
+.nav_links{
+    top:0px;
+    position: relative;
+    color: var(--soft_color);
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav_links::after{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0;
+    height: 0.5px;
+    background-color: var(--sub_color);
+    transition: width 0.35s ease-in;
+}
+
+.nav_list_item:hover .nav_links::after{
+    width: 100%;
+}
+
+/* Main Style  */
+
+.main_content{
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+}
+
+.main_loader{
+    height: 100vh;
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--dark_bg);
+    position: relative;
+}
+
+.Loading_content{
+    position: absolute;
+    background-image: url(/images/Magazine/SAMP.png);
+    background-size: contain;
+    height: 450px;
+    width: 450px;
+}
+
+.Loading_element{
+    height: 500px;
+    width: 500px;
+    border: 10px solid var(--soft_color);
+    border-radius: 50%;
+    border-top: 10px solid var(--sub_color);
+    animation: rotate 2s 0s ease infinite normal ;
+
+}
+
+.Main_Content_div{
+    height: 100%;
+    width: 100%;
+}
+
+.Hero_Magazine{
+    height: calc(100vh - 70px);
+    background-image: url(/images/Magazine/Hero_Magzine.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 100%;
+    filter: brightness(60%);
+    transform: scale(1);
+}
+
+/* Info Style  */
+
+.Main_Info_Content{
+    height: 100%;
+    width: 100%;
+    background-color: var(--skin_bg);
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.Info_Content_div{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    gap:var(--more_gap);
+}
+
+.Info_Content{
+    height: 500px;
+    width: 500px;
+    font-size: calc( var(--main_font) - 0.5rem);
+    background-color: var(--dark_bg);
+    border: 2px solid var(--dark_bg);
+    box-shadow: 3px 4px 10px;
+    word-spacing: 5px;
+    padding: 2%;
+    align-items: center;
+
+}
+
+.Info_Content h4{
+    color: var(--info_color);
+}
+
+/* Profile Style  */
+
+.Profile_div{
+    height: 100%;
+    width: 100%;
+    gap:var(--more_gap);
+    padding: 2%;
+    background-color: var(--grey_bg);
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.Profile{
+    height: 500px;
+    width: 600px;
+    align-items: center;
+    border: 2px solid var(--dark_bg);
+    box-shadow: 3px 4px 10px;
+    background-color: var(--bright_color);
+    gap:var(--less_gap);
+    justify-content: end;
+    text-align: center;
+    padding: 1%;
+    overflow: hidden;
+}
+
+.Profile_Photo{
+    height: 75%;
+    width: auto;
+    box-shadow: 1px 1px 6px var(--dark_bg);
+}
+
+.Profile_Photo img{
+    height: 100%;
+    width: 100%;
+    object-position: bottom;
+}
+
+/* Magazine Style  */
+
+.Magazine_selector_div{
+    height: 70px !important;
+    width: 100%;
+    justify-content: center;
+    align-items: start;
+    height: 50px;
+    gap:var(--less_gap);
+}
+
+.Magazine_selector{
+    padding: 0.25%;
+    width: 100px;
+    font-size: calc( var(--sub_font) - 0.3rem);
+    background-color: var(--dark_bg);
+    color: var(--soft_color);
+    font-weight: 900;
+}
+
+.Magazine_selector:hover{
+    background-color: var(--sub_color);
+}
+
+.Magazine_Content_div{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap:var(--more_gap);
+}
+
+.Magazine_Photo{
+    width: 90%;
+}
+
+.Magazine_Photo img{
+    object-fit: contain;
+}
+
+.Color_Magazine_Photo{
+    width: 60%;
+}
+
+.Color_Magazine_Photo img{
+    object-fit: fill;
+}
+
+.Color_Captain_Photo{
+    width: 40%;
+}
+
+.Magazine_Content.selected{
+    min-height: 100vh;
+    width: 100%;
+}
+
+.Magazine_Content.selected .Color_Captain_Photo img{
+    object-fit: fill;
+}
+
+/* Team Style  */
+
+.Team_Content p{
+    max-width: 100%;
+    white-space: wrap;
+}
+
+/* Memory Style  */
+
+.Memory{
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Memory_content{
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+    object-position: center;
+    object-fit: cover;
+}
+
+.Memory_content video{
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.Memory_content video,.Memory_content img{
+    height: 100%;
+    max-width: 100%;
+    object-position: center;
+}
+
+/* About Style  */
+
+.About_Div{
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+    gap:var(--less_gap);
+}
+
+.about_tittle{
+    height: 150px;
+}
+
+.about_hero{
+    height: calc(100vh - 250px);
+    width: 100%;
+    background-image: url(/images/Magazine/SAMP.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.about_content{
+    height: auto;
+    width: 100%;
+    background-color: var(--skin_bg);
+    padding: 5%;
+    align-items: center;
+    gap: var(--med_gap);
+}
+
+.about_content p{
+    font-size: var(--sub_font);
+}
+
+.about_content img{
+    height: 400px;
+    width: auto;
+    object-fit: contain;
+}
+
+/* Footer Style  */
+
+.main_end{
+    min-height: 50px;
+    width: 100%;
+    background-color: var(--dark_bg);
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.scroll{
+    position: relative;
+    top: 0px;
+    width: 100%;
+    animation: scroll 4.5s linear 0s infinite normal;
+}
+
+.main_end:hover .scroll{
+    animation-play-state: paused;
+}
+
+/* Media Query Style  */
+
+@media (max-width:800px) {
+
+    :root{
+        --main_font:2.5rem;
+        --sub_font:1.5rem;
+        --info_font:1rem;
+    }
+
+    .nav_list{
+        position: absolute;
+        left: 0;
+        top: -300%;
+        width: 100% !important;
+        z-index: 5;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+        transition: all 1s ease-in;
+    }
+
+    .nav_list.shown{
+        left: 0;
+        top: 0;
+    }
+
+    .hamburger_icon{
+        font-size: var(--main_font);
+        z-index: 10;
+    }
+
+    .Loading_element{
+        height: 300px !important;
+        width: 300px !important;
+    }
+
+    .Profile_Photo{
+        width: 90%;
+    }
+
+    .Magazine_Content_div .Profile{
+        height: 100vh;
+    }
+
+    .Magazine_Photo{
+        height: 70%;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Color_Captain_Photo{
+        height: 50%;
+        width: 100%;
+    }
+
+    .Color_Magazine_Photo{
+        height: 50%;
+        width: 100%;
+    }
+
+    .Memory_content{
+        width: 100%;
+        height: 100%;
+    }
+
+    .Magazine_Content.selected{
+        height:140vh;
+    }
+
+}
+
+@media (min-width:2000px) {
+
+    :root{
+        --main_font:4.5rem;
+        --sub_font:3.5rem;
+        --info_font:2rem;
+    }
+
+};

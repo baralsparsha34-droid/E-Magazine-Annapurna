@@ -1,0 +1,47 @@
+[
+    {
+        "title":"House Master",
+        "name":"Bharat Prasad Subedi",
+        "image":"/images/Team/HM.jpg"
+    },
+    {
+        "title":"Assistant House Master",
+        "name":"Basanta Poudel",
+        "image":"/images/Team/AHM1.jpg"
+    },
+    {
+        "title":"Assistant House Master",
+        "name":"Buddhi Raj Baral",
+        "image":"/images/Team/AHM2.jpg"
+    },
+    {
+        "title":"House Helper",
+        "name":"Resham Gurung",
+        "image":"/images/Team/HH.jpg"
+    },
+    {
+        "title":"School Vice Captain",
+        "name":"Alen Ojha",
+        "image":"/images/Team/SVC.jpg"
+    },
+    {
+        "title":"School Sport Vice Captain",
+        "name":"Pratik KC",
+        "image":"/images/Team/SSVC.jpg"
+    },
+    {
+        "title":"House Captain",
+        "name":"Rejan Kunwar",
+        "image":"/images/Team/HC.jpg"
+    },
+    {
+        "title":"House Vice Captain",
+        "name":"Naman Acharya",
+        "image":"/images/Team/HVC.jpg"
+    },
+    {
+        "title":"Mess Captain",
+        "name":"Roney Adhikari",
+        "image":"/images/Team/MC.jpg"
+    }
+]
