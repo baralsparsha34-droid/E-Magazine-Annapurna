@@ -371,7 +371,7 @@ html{
 }
 
 .Magazine_Content.selected{
-    min-height: 100vh;
+    min-height: 150vh;
     width: 100%;
 }
 

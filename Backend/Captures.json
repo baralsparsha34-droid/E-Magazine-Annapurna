@@ -28,5 +28,24 @@
         "memory":"Blue Color Magazine",
         "content":"/images/Captures/img5.jpg",
         "type":"ph"
+    },
+    {
+        "memory":"Developing The E-Magazine",
+        "content":"/images/Captures/img6.jpg",
+        "type":"ph"
+    },{
+        "memory":"Grand Rehalsal",
+        "content":"/images/Captures/img7.jpg",
+        "type":"ph"
+    },
+    {
+        "memory":"Creative Hands",
+        "content":"/images/Captures/img8.jpg",
+        "type":"ph"
+    },
+    {
+        "memory":"Lakhey",
+        "content":"/images/Captures/img9.jpg",
+        "type":"ph"
     }
 ]
