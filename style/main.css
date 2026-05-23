@@ -548,7 +548,7 @@ html{
     }
 
     .Color_Captain_Photo img{
-        object-position: bottom;
+        object-position: bottom !important;
     }
 
     .Color_Magazine_Photo{
