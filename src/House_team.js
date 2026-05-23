@@ -27,7 +27,7 @@ export class House_Team{
                         <p class="main_text">${Team.title}</p>
                         <div class="Profile_Photo">
 
-                            <img src="${Team.image}" alt="${Team.name} Photo"/>
+                            <img src="${Team.image}" alt="${Team.name} Photo"loading="lazy"/>
 
                         </div>
                         <p class="sub_text">${Team.name}</p>

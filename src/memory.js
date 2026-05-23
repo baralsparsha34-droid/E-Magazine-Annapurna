@@ -29,7 +29,7 @@ export class Memory{
                             <p class="sub_text">${Memory.memory}</p>
 
                             <div class="Memory_content Profile_Photo">
-                                    <video controls><source src="${Memory.content}">Sorry Your Browser Doesn't Support This Clip.</source></video>
+                                    <video controls><source src="${Memory.content}" loading="lazy">Sorry Your Browser Doesn't Support This Clip.</source></video>
                             </div>
 
                         </div>
@@ -44,7 +44,7 @@ export class Memory{
                             <p class="sub_text">${Memory.memory}</p>
 
                             <div class="Memory_content Profile_Photo">
-                                <img src="${Memory.content}">
+                                <img src="${Memory.content}" loading="lazy">
                             </div>
 
                         </div>

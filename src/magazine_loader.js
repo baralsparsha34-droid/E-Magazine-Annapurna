@@ -28,7 +28,7 @@ export class Magazine_Loader{
                         <p class="Magazine_text main_text">${Color.color} Color-Wall Magazine</p>
                         <div class="Profile_Photo Magazine_Photo flex">
                             <div class="Color_Magazine_Photo">
-                                <img src="${Color.Photo}" alt="${Color.color}-Wall Magazine Photo">
+                                <img src="${Color.Photo}" alt="${Color.color}-Wall Magazine Photo" loading="lazy">
                             </div>
                             <div class="Color_Captain_Photo">
                                 <img src="${Color.Captain.Photo}" alt="${Color.Captain.name} Photo">
@@ -48,7 +48,7 @@ export class Magazine_Loader{
                         <p class="Magazine_text main_text">${Color.color} Color -Wall Magazine</p>
                         <div class="Profile_Photo Magazine_Photo flex">
                             <div class="Color_Magazine_Photo">
-                                <img src="${Color.Photo}" alt="${Color.color}-Wall Magazine Photo">
+                                <img src="${Color.Photo}" alt="${Color.color}-Wall Magazine Photo" loading="lazy">
                             </div>
                             <div class="Color_Captain_Photo">
                                 <img src="${Color.Captain.Photo}" alt="${Color.Captain.name} Photo">
