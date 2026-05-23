@@ -38,5 +38,20 @@
         "memory":"Lakhey",
         "content":"/images/Captures/img9.jpg",
         "type":"ph"
+    },
+    {
+        "memory":"Wall Magazine Abhisek's Group",
+        "content":"/images/Captures/vid1.mp4",
+        "type":"vid"
+    },
+    {
+        "memory":"Wall Magazine Reejan's Group",
+        "content":"/images/Captures/vid2.mp4",
+        "type":"vid"
+    },
+    {
+        "memory":"Wall Magazine Binay with Niskarsha",
+        "content":"/images/Captures/vid3.mp4",
+        "type":"vid"
     }
 ]

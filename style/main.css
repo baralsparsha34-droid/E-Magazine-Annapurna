@@ -299,6 +299,7 @@ html{
     text-align: center;
     padding: 1%;
     overflow: hidden;
+    border-radius: 25px;
 }
 
 .Profile_Photo{
@@ -327,7 +328,7 @@ html{
 .Magazine_selector{
     padding: 0.25%;
     width: 100px;
-    font-size: calc( var(--sub_font) - 0.3rem);
+    font-size: calc( var(--sub_font) - 0.25rem);
     background-color: var(--dark_bg);
     color: var(--soft_color);
     font-weight: 900;
@@ -403,9 +404,11 @@ html{
 }
 
 .Memory_content{
-    width: auto;
-    height: 80%;
-    overflow: hidden;
+    height: 80% !important;
+}
+
+.Memory_content img{
+    object-position: center;
 }
 
 .Memory_content video{
@@ -492,10 +495,13 @@ html{
         --info_font:1rem;
     }
 
+    /* Navbar Style  */
+
     .nav_list{
+        height: 100vh;
         position: absolute;
-        left: 0;
-        top: -300%;
+        left: -100%;
+        top: 0;
         width: 100% !important;
         z-index: 5;
         flex-direction: column;
@@ -503,6 +509,20 @@ html{
         align-items: center;
         padding: 2%;
         transition: all 1s ease-in;
+    }
+
+    .nav_list_item{
+        width: 100%;
+        font-size: var(--main_font) !important;
+        border: 2px solid var(--grey_bg);
+        width: 80%;
+        text-align: center;
+        padding: 1%;
+        border-radius: 25px;
+    }
+
+    .nav_links{
+        color: var(--main_color) !important;
     }
 
     .nav_list.shown{
@@ -514,6 +534,12 @@ html{
         font-size: var(--main_font);
         z-index: 10;
     }
+
+    .main_header.scrolled .nav_list_item{
+        border-color: var(--dark_bg);
+    }
+
+    /* Other Style  */
 
     .Loading_element{
         height: 300px !important;
@@ -574,16 +600,6 @@ html{
     .Magazine_Content.selected .Color_Captain_Photo{
         height: 40%;
         width: 100%;
-    }
-
-}
-
-@media (min-width:2000px) {
-
-    :root{
-        --main_font:4.5rem;
-        --sub_font:3.5rem;
-        --info_font:2rem;
     }
 
 }

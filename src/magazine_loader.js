@@ -66,9 +66,10 @@ export class Magazine_Loader{
         
         document.querySelectorAll('.Magazine_selector').forEach(
             (Selector)=>{
+                Selector.style.color=`${Selector.id}`;
                 Selector.addEventListener('click',()=>{
                     {
-                        this.#Make_Magzine(Selector.name);
+                        this.#Make_Magzine(Selector.id);
                     }
                 })
             }
