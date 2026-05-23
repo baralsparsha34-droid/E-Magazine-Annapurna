@@ -547,6 +547,10 @@ html{
         width: 100%;
     }
 
+    .Color_Captain_Photo img{
+        object-position: bottom;
+    }
+
     .Color_Magazine_Photo{
         height: 50%;
         width: 100%;
