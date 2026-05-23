@@ -539,7 +539,7 @@ html{
         align-items: center;
     }
 
-    .Profile_Photo{
+    .Profile_Photo img{
         object-fit: contain;
     }
 
