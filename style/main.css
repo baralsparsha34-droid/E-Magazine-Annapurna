@@ -539,6 +539,10 @@ html{
         align-items: center;
     }
 
+    .Profile_Photo{
+        object-fit: contain;
+    }
+
     .Color_Captain_Photo{
         height: 50%;
         width: 100%;
