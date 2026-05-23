@@ -310,7 +310,6 @@ html{
 .Profile_Photo img{
     height: 100%;
     width: 100%;
-    object-position: bottom;
 }
 
 /* Magazine Style  */
@@ -363,7 +362,7 @@ html{
 }
 
 .Color_Magazine_Photo img{
-    object-fit: fill;
+    object-fit: fill !important;
 }
 
 .Color_Captain_Photo{
@@ -533,7 +532,7 @@ html{
     }
 
     .Magazine_Photo{
-        height: 72%;
+        height: 75%;
         flex-direction: column !important;
         justify-content: center;
         align-items: center;
@@ -555,10 +554,6 @@ html{
 
     .Color_Magazine_Photo{
         width: 100%;
-    }
-
-    .Color_Captain_Photo img{
-        object-fit: fill;
     }
 
     .Memory_content{
