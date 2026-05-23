@@ -13,17 +13,12 @@ export class Magazine_Loader{
     };
 
     #Make_Magzine(MagazineSelector=false){
-
         let MainMagazine='';
         let tempMagazine='';
-
         this.MagazineData.forEach(
             (Color) => {
-
                 if(MagazineSelector===Color.color){
-
                     tempMagazine=`
-
                     <div class="Magazine_Content Profile flex col selected" id="${Color.color}">
                         <p class="Magazine_text main_text">${Color.color} Color-Wall Magazine</p>
                         <div class="Profile_Photo Magazine_Photo flex">
@@ -38,12 +33,9 @@ export class Magazine_Loader{
                     </div>`;
                     MainMagazine+=tempMagazine;
                     return;
-
                 }
                 else if(MagazineSelector===false || MagazineSelector==='All'){
-
                     tempMagazine=`
-
                     <div class="Profile flex col fly_hover" id="${Color.color}">
                         <p class="Magazine_text main_text">${Color.color} Color -Wall Magazine</p>
                         <div class="Profile_Photo Magazine_Photo flex">
@@ -57,13 +49,10 @@ export class Magazine_Loader{
                         <p class="sub_text">${Color.Captain.name}</p>
                     </div>`;
                     MainMagazine+=tempMagazine;
-
                 };
             }
         );
-
         document.querySelector('.Magazine_Content_div').innerHTML=MainMagazine;
-        
         document.querySelectorAll('.Magazine_selector').forEach(
             (Selector)=>{
                 Selector.style.color=`${Selector.id}`;
