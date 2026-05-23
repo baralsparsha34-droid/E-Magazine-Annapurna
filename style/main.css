@@ -310,6 +310,7 @@ html{
 .Profile_Photo img{
     height: 100%;
     width: 100%;
+    object-position: bottom;
 }
 
 /* Magazine Style  */
@@ -545,10 +546,6 @@ html{
     .Color_Captain_Photo{
         height: 50%;
         width: 100%;
-    }
-
-    .Color_Captain_Photo img{
-        object-position: bottom !important;
     }
 
     .Color_Magazine_Photo{
