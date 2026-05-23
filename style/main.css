@@ -228,12 +228,14 @@ html{
 
 .Hero_Magazine{
     height: calc(100vh - 70px);
+    width: auto;
     background-image: url(/images/Magazine/Hero_Magazine.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: 100% 100%;
+    background-size: 50% 100%;
     filter: brightness(60%);
     transform: scale(1);
+    background-color: var(--dark_bg);
 }
 
 /* Info Style  */
@@ -516,6 +518,10 @@ html{
     .Loading_element{
         height: 300px !important;
         width: 300px !important;
+    }
+
+    .Hero_Magazine{
+        background-size: 100% 100%;
     }
 
     .Profile_Photo{
