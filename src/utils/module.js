@@ -44,10 +44,12 @@ export class MyUtils{
 
     StartChange(){
         new ChangeElementByHeightAndSelector('.main_header','scrolled',window.innerHeight);
+        new ChangeElementByHeightAndSelector('.back_to_top','scrolled',window.innerHeight);
+        document.querySelector('.back_to_top').addEventListener('click',()=> window.scrollTo(0,0));
     };
 
     StartPreLoader(){
-        new PreLoaderBySecondsAndSelector('.main_loader','.Main_Content_div','hidden',2);
+        new PreLoaderBySecondsAndSelector('.main_loader','.Main_Content_div','hidden',1.7);
     };
 
     async LoadBackend(FileAddress){

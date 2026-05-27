@@ -36,6 +36,7 @@
     --blue_bg:rgba(00,00,255,1);
     --skin_bg:rgba(250,190,190,1);
     --grey_bg:var(--soft_color);
+    --brown_bg:rgba(102, 58, 30);
     
 
     /* Font size Variables  */
@@ -238,6 +239,29 @@ html{
     background-color: var(--dark_bg);
 }
 
+.back_to_top{
+    position: absolute;
+    bottom: 0;
+    left:100%;
+    position: sticky;
+    height: 70px;
+    width: 70px;
+    background-color: var(--brown_bg);
+    border-radius: 50%;
+    font-size: var(--main_font);
+    color: var(--soft_color);
+    font-weight: 900;
+}
+
+.back_to_top.scrolled{
+    display: inline !important;
+}
+
+.back_to_top:hover{
+    background-color: var(--dark_bg);
+    color: var(--main_color);
+}
+
 /* Info Style  */
 
 .Main_Info_Content{
@@ -295,7 +319,7 @@ html{
     box-shadow: 3px 4px 10px;
     background-color: var(--bright_color);
     gap:var(--less_gap);
-    justify-content: end;
+    justify-content: center;
     text-align: center;
     padding: 7px;
     overflow: hidden;
