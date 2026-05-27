@@ -297,7 +297,7 @@ html{
     gap:var(--less_gap);
     justify-content: end;
     text-align: center;
-    padding: 1%;
+    padding: 7px;
     overflow: hidden;
     border-radius: 25px;
 }
@@ -305,6 +305,7 @@ html{
 .Profile_Photo{
     height: 70%;
     width: auto;
+    max-width: 90%;
     box-shadow: 1px 1px 6px var(--dark_bg);
 }
 
@@ -344,10 +345,6 @@ html{
     justify-content: center;
     align-items: center;
     gap:var(--more_gap);
-}
-
-.Magazine_Content_div p{
-    width: 80%;
 }
 
 .Magazine_Photo{
@@ -404,7 +401,7 @@ html{
 }
 
 .Memory_content{
-    height: 80% !important;
+    height: 85%;
 }
 
 .Memory_content img{
@@ -550,10 +547,6 @@ html{
         background-size: 100% 100%;
     }
 
-    .Profile_Photo{
-        width: 90%;
-    }
-
     .Magazine_Content_div .Profile{
         height: 140vh;
     }
@@ -565,9 +558,6 @@ html{
         align-items: center;
     }
 
-    .Profile_Photo img{
-        object-fit: contain;
-    }
 
     .Color_Captain_Photo{
         height: 50%;
@@ -581,11 +571,6 @@ html{
 
     .Color_Magazine_Photo{
         width: 100%;
-    }
-
-    .Memory_content{
-        width: 100%;
-        height: 100%;
     }
 
     .Magazine_Content.selected{
