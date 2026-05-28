@@ -616,6 +616,10 @@ html{
         height: 40%;
         width: 100%;
     }
+    
+    .Profile_Photo{
+        max-width: 90%;
+    }
 
 }
 
@@ -648,10 +652,6 @@ html{
     .Magazine_Content.selected .Color_Captain_Photo{
         height: 100%;
         width: 40%;
-    }
-
-    .Profile_Photo{
-        max-width: 90%;
     }
 }
 
