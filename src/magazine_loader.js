@@ -36,8 +36,8 @@ export class Magazine_Loader{
                 }
                 else if(MagazineSelector===false || MagazineSelector==='All'){
                     tempMagazine=`
-                    <div class="Profile flex col fly_hover" id="${Color.color}">
-                        <p class="Magazine_text main_text">${Color.color} Color -Wall Magazine</p>
+                    <div class="Magazine_Content Profile flex col" id="${Color.color}">
+                        <p class="Magazine_text main_text">${Color.color} Color-Wall Magazine</p>
                         <div class="Profile_Photo Magazine_Photo flex">
                             <div class="Color_Magazine_Photo">
                                 <img src="${Color.Photo}" alt="${Color.color}-Wall Magazine Photo" loading="lazy">
