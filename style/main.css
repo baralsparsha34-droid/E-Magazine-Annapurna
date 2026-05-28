@@ -22,21 +22,19 @@
 
 :root{
 
-    /* Colors Varaiables  */
+    /* Colors Variables */ 
+    --main_color: #0064ff; 
+    --sub_color: #ff0032; 
+    --info_color: #00ff32; 
+    --soft_color: #c8c8c8; 
+    --bright_color: #f8fafc; 
 
-    --main_color:rgba(00,100,255,1);
-    --sub_color:rgba(255,00,50);
-    --info_color:rgba(00,255,50,1);
-    --soft_color:rgba(200,200,200,1);
-    --bright_color:rgba(255,255,255,1);
-
-    /* Bg Colors Varaiables  */
-
-    --dark_bg:rgba(00,00,00,1);
-    --blue_bg:rgba(00,00,255,1);
-    --skin_bg:rgba(250,190,190,1);
-    --grey_bg:var(--soft_color);
-    --brown_bg:rgba(102, 58, 30);
+    /* Bg Colors Variables */ 
+    --dark_bg: #000000; 
+    --blue_bg: #0000ff; 
+    --skin_bg: #fabebe; 
+    --grey_bg: var(--soft_color); 
+    --brown_bg: #663a1e;
     
 
     /* Font size Variables  */
@@ -110,6 +108,11 @@ html{
     color: var(--info_color);
     font-size: var(--info_font);
     font-weight: 900;
+}
+
+.line{
+    height: 1px;
+    width: 100%;
 }
 
 /* Header Style  */
@@ -188,6 +191,13 @@ html{
     width: 100%;
 }
 
+.scroll{
+    white-space: nowrap;
+    display: inline-block;
+    animation: scroll 5s linear 0s infinite normal;
+    padding-left: 100%;
+}
+
 /* Main Style  */
 
 .main_content{
@@ -244,9 +254,9 @@ html{
 .back_to_top{
     position:fixed;
     bottom: 10px;
-    right: 20px;
-    height: 70px;
-    width: 70px;
+    right: 10px;
+    height: 60px;
+    width: 60px;
     background-color: var(--brown_bg);
     border-radius: 50%;
     font-size: var(--main_font);
@@ -496,28 +506,23 @@ html{
 /* Footer Style  */
 
 .main_end{
-    min-height: 50px;
+    height: auto;
+    min-height: 20vh;
     width: 100%;
     background-color: var(--dark_bg);
-    justify-content: center;
-    align-items: center;
     overflow: hidden;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: var(--more_gap);
 }
 
-.scroll{
-    white-space: nowrap;
-    display: inline-block;
-    animation: scroll 5s linear 0s infinite normal;
-    padding-left: 100%;
-}
-
-.copy_text{
-    font-size: var(--info_font);
-    color: var(--sub_color);
-}
-
-.main_end:hover .scroll{
-    animation-play-state: paused;
+.copy{
+    font-size: var(--sub_font);
+    color: var(--soft_color);
+    text-align: center;
+    width: 100%;
+    word-break:keep-all;
 }
 
 /* Media Query Style  */
