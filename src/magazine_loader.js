@@ -19,7 +19,7 @@ export class Magazine_Loader{
             (Color) => {
                 if(MagazineSelector===Color.color){
                     tempMagazine=`
-                    <div class="Magazine_Content Profile flex col selected" id="${Color.color}">
+                    <div class="Magazine_Content Profile flex col selected fly_hover" id="${Color.color}">
                         <p class="Magazine_text main_text">${Color.color} Color-Wall Magazine</p>
                         <div class="Profile_Photo Magazine_Photo flex">
                             <div class="Color_Magazine_Photo">
@@ -36,7 +36,7 @@ export class Magazine_Loader{
                 }
                 else if(MagazineSelector===false || MagazineSelector==='All'){
                     tempMagazine=`
-                    <div class="Magazine_Content Profile flex col" id="${Color.color}">
+                    <div class="Magazine_Content Profile flex col fly_hover" id="${Color.color}">
                         <p class="Magazine_text main_text">${Color.color} Color-Wall Magazine</p>
                         <div class="Profile_Photo Magazine_Photo flex">
                             <div class="Color_Magazine_Photo">
