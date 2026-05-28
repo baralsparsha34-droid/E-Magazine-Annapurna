@@ -428,16 +428,17 @@ html{
 
 .Memory{
     width: 800px;
-    align-items: center;
-    justify-content: center;
 }
 
 .Memory_content{
-    height: 85%;
+    min-height: 60%;
+    max-height: 85%;
+    height: auto;
 }
 
 .Memory_content img{
     object-position: center;
+    object-fit: fill;
 }
 
 .Memory_content video{
