@@ -340,7 +340,6 @@ html{
     width: 100%;
     object-position: bottom;
     object-fit: fill;
-    border-radius: 25px;
 }
 
 /* Magazine Style  */
@@ -446,7 +445,6 @@ html{
     height: 100%;
     width: 100%;
     object-fit: cover !important;
-    border-radius: 25px;
 }
 
 /* About Style  */
