@@ -2,10 +2,10 @@
 
 @keyframes scroll {
     0%{
-        transform: translateX(100%);
+        transform: translateX(0);
     }
     100%{
-        transform: translateX(-30%);
+        transform: translateX(-100%);
     }
 }
 
@@ -505,10 +505,10 @@ html{
 }
 
 .scroll{
-    position: relative;
-    top: 0px;
-    width: 100%;
-    animation: scroll 4.5s linear 0s infinite normal;
+    white-space: nowrap;
+    display: inline-block;
+    animation: scroll 5s linear 0s infinite normal;
+    padding-left: 100%;
 }
 
 .copy_text{
