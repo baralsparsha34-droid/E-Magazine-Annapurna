@@ -331,7 +331,7 @@ html{
 .Profile_Photo{
     height: 70%;
     width: auto;
-    max-width: 90%;
+    max-width: 70%;
     box-shadow: 1px 1px 6px var(--dark_bg);
 }
 
@@ -339,7 +339,7 @@ html{
     height: 100%;
     width: 100%;
     object-position: bottom;
-    object-fit: contain;
+    object-fit: fill;
 }
 
 /* Magazine Style  */
@@ -432,8 +432,8 @@ html{
 }
 
 .Memory_content{
-    min-height: 60%;
     max-height: 85%;
+    min-height: 60%;
     height: auto;
 }
 
@@ -444,7 +444,6 @@ html{
 
 .Memory_content video{
     height: 100%;
-    width: 100%;
     width: 100%;
     object-fit: cover;
 }
@@ -649,6 +648,10 @@ html{
     .Magazine_Content.selected .Color_Captain_Photo{
         height: 100%;
         width: 40%;
+    }
+
+    .Profile_Photo{
+        max-width: 90%;
     }
 }
 
