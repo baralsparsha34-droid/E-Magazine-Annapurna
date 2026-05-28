@@ -307,7 +307,7 @@ html{
     height: 100%;
     width: 100%;
     gap:var(--more_gap);
-    padding: 10px;
+    padding: 2%;
     background-color: var(--grey_bg);
     justify-content: center !important;
     align-items: center !important;
