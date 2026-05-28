@@ -351,12 +351,12 @@ html{
 }
 
 .Magazine_selector_div{
-    height: 70px !important;
+    height: auto !important;
     width: 100%;
-    justify-content: center;
     align-items: start;
     height: 50px;
     gap:var(--less_gap);
+    justify-content: space-evenly;
 }
 
 .Magazine_selector{
@@ -384,15 +384,11 @@ html{
 }
 
 .Magazine_Photo img{
-    object-fit: contain;
+    object-fit: fill;
 }
 
 .Color_Magazine_Photo{
     width: 60%;
-}
-
-.Color_Magazine_Photo img{
-    object-fit: fill !important;
 }
 
 .Color_Captain_Photo{
@@ -584,14 +580,19 @@ html{
     }
 
     .Magazine_Content{
-        height: 160vh !important;
+        height: 170vh !important;
     }
 
     .Magazine_Photo{
         height: 75%;
+        width: 100%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .Magazine_Photo img{
+        object-fit: fill;
     }
 
     .Color_Captain_Photo,.Color_Magazine_Photo{
@@ -612,6 +613,7 @@ html{
 }
 
 @media (min-width: 550px) and (max-width: 800px){
+
     .Magazine_Content{
         height: 500px !important;
     }
@@ -620,10 +622,6 @@ html{
         height: 65%;
         width: 80%;
         flex-direction: row;
-    }
-
-    .Magazine_Photo img{
-        object-fit: fill;
     }
 
     .Magazine_Content.selected{
