@@ -511,6 +511,11 @@ html{
     animation: scroll 4.5s linear 0s infinite normal;
 }
 
+.copy_text{
+    font-size: var(--info_font);
+    color: var(--sub_color);
+}
+
 .main_end:hover .scroll{
     animation-play-state: paused;
 }
