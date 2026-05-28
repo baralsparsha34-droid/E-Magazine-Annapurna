@@ -313,6 +313,7 @@ html{
 }
 
 .Profile{
+    max-height: 550px;
     height: 500px;
     width: 600px;
     align-items: center;
