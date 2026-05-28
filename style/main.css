@@ -313,19 +313,18 @@ html{
 }
 
 .Profile{
-    max-height: 550px;
     height: 500px;
     width: 600px;
+    background-color: var(--bright_color);
+    text-align: center;
+    justify-content: center;
+    gap:var(--less_gap);
     align-items: center;
+    overflow: hidden;
     border: 2px solid var(--dark_bg);
     box-shadow: 3px 4px 10px;
-    background-color: var(--bright_color);
-    gap:var(--less_gap);
-    justify-content: center;
-    text-align: center;
-    padding: 7px;
-    overflow: hidden;
     border-radius: 25px;
+    padding:2%;
 }
 
 .Profile_Photo{
