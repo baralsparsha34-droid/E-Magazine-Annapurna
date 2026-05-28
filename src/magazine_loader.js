@@ -55,7 +55,7 @@ export class Magazine_Loader{
         document.querySelector('.Magazine_Content_div').innerHTML=MainMagazine;
         document.querySelectorAll('.Magazine_selector').forEach(
             (Selector)=>{
-                Selector.style.color=`${Selector.id}`;
+                Selector.style.color = Selector.id;
                 Selector.addEventListener('click',()=>{
                     {
                         this.#Make_Magzine(Selector.id);
