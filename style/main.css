@@ -243,8 +243,8 @@ html{
 
 .back_to_top{
     position:fixed;
-    bottom: 0;
-    right: 0;
+    bottom: 10px;
+    right: 20px;
     height: 70px;
     width: 70px;
     background-color: var(--brown_bg);
@@ -252,7 +252,6 @@ html{
     font-size: var(--main_font);
     color: var(--soft_color);
     font-weight: 900;
-    margin: 10px 5px;
 }
 
 .back_to_top.scrolled{
