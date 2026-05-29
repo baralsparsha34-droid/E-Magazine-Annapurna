@@ -254,7 +254,7 @@ html{
 .back_to_top{
     position:fixed;
     bottom: 10px;
-    right: 10px;
+    right: 15px;
     height: 60px;
     width: 60px;
     background-color: var(--brown_bg);
