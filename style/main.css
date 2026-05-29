@@ -239,7 +239,7 @@ html{
     border: 10px solid var(--soft_color);
     border-radius: 50%;
     border-top: 10px solid var(--sub_color);
-    animation: rotate 2s 0s ease 1 normal ;
+    animation: rotate 2s 0s ease infinite normal ;
 
 }
 
