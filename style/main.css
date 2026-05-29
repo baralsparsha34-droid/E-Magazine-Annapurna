@@ -523,6 +523,7 @@ html{
     text-align: center;
     width: 100%;
     word-break:keep-all;
+    white-space: nowrap;
 }
 
 /* Media Query Style  */
