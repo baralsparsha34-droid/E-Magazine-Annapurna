@@ -18,6 +18,15 @@
     }
 }
 
+@keyframes bounce {
+    0%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
 /* Declaring Variables  */
 
 :root{
@@ -249,12 +258,11 @@ html{
     filter: brightness(60%);
     transform: scale(1);
     background-color: var(--dark_bg);
+    justify-content: center;
+    align-items: end;
 }
 
-.back_to_top{
-    position:fixed;
-    bottom: 10px;
-    right: 15px;
+.scroll_button{
     height: 60px;
     width: 60px;
     background-color: var(--brown_bg);
@@ -264,15 +272,30 @@ html{
     font-weight: 900;
     justify-content: center;
     align-items: center;
+    animation: bounce 0.975s linear infinite;
 }
 
-.back_to_top.scrolled{
+.scroll_button.scrolled{
     display: flex !important;
 }
 
-.back_to_top:hover{
+.scroll_button:hover{
     background-color: var(--dark_bg);
     color: var(--main_color);
+}
+
+#bottom-to-top{
+    position:fixed;
+    bottom: 15px;
+    right: 15px;
+}
+
+#bottom-to-top::after{
+    content: "⬆";
+}
+
+#top-to-next_vh{
+    margin-bottom: 15px;
 }
 
 /* Info Style  */

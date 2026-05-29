@@ -40,8 +40,9 @@ export class MyUtils{
     StartToggle=()=>new ToggleByEventAndSelector('.nav_list','click','.hamburger_icon','shown');
     StartChange=()=>{
         new ChangeElementByHeightAndSelector('.main_header','scrolled',window.innerHeight);
-        new ChangeElementByHeightAndSelector('.back_to_top','scrolled',window.innerHeight);
-        document.querySelector('.back_to_top').addEventListener('click',()=> window.scrollTo(0,0));
+        new ChangeElementByHeightAndSelector('#bottom-to-top','scrolled',window.innerHeight);
+        document.getElementById('bottom-to-top').addEventListener('click',()=> window.scrollTo(0,0));
+        document.getElementById('top-to-next_vh').addEventListener('click',()=> window.scrollTo(0,window.innerHeight));
     };
     StartPreLoader=()=>new PreLoaderBySecondsAndSelector('.main_loader','.Main_Content_div','hidden',1.7);
     LoadBackend=async(FileAddress)=>{
