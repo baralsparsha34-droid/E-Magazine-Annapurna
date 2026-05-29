@@ -42,7 +42,7 @@ export class MyUtils{
         new ChangeElementByHeightAndSelector('.main_header','scrolled',window.innerHeight);
         new ChangeElementByHeightAndSelector('#bottom-to-top','scrolled',window.innerHeight);
         document.getElementById('bottom-to-top').addEventListener('click',()=> window.scrollTo(0,0));
-        document.getElementById('top-to-next_vh').addEventListener('click',()=> window.scrollTo(0,window.innerHeight));
+        if (document.getElementById('top-to-next_vh')){document.getElementById('top-to-next_vh').addEventListener('click',()=> window.scrollTo(0,window.innerHeight))};
     };
     StartPreLoader=()=>new PreLoaderBySecondsAndSelector('.main_loader','.Main_Content_div','hidden',1.7);
     LoadBackend=async(FileAddress)=>{
