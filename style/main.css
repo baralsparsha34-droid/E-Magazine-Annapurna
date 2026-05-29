@@ -218,7 +218,7 @@ html{
 
 .Loading_content{
     position: absolute;
-    background-image: url(/images/Magazine/SAMP.png);
+    background-image: url(/images/Magazine/SAMP.webp);
     background-size: contain;
     height: 450px;
     width: 450px;
@@ -242,7 +242,7 @@ html{
 .Hero_Magazine{
     height: calc(100vh - 70px);
     width: auto;
-    background-image: url(/images/Magazine/Hero_Magazine.jpg);
+    background-image: url(/images/Magazine/Hero_Magazine.webp);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 50% 100%;
@@ -262,10 +262,12 @@ html{
     font-size: var(--main_font);
     color: var(--soft_color);
     font-weight: 900;
+    justify-content: center;
+    align-items: center;
 }
 
 .back_to_top.scrolled{
-    display: inline !important;
+    display: flex !important;
 }
 
 .back_to_top:hover{
@@ -477,7 +479,7 @@ html{
 .about_hero{
     height: calc(100vh - 250px);
     width: 100%;
-    background-image: url(/images/Magazine/SAMP.png);
+    background-image: url(/images/Magazine/SAMP.webp);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
