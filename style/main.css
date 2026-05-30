@@ -104,7 +104,7 @@ html{
     color: var(--main_color);
     font-size: var(--main_font);
     font-weight: 900;
-    font-family: monospace !important;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
 }
 
 .sub_text{
@@ -305,8 +305,6 @@ html{
     width: 100%;
     background-color: var(--skin_bg);
     text-align: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
 .Info_Content_div{
