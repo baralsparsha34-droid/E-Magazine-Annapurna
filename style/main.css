@@ -341,7 +341,6 @@ html{
     width: 100%;
     gap:var(--more_gap);
     padding: 2%;
-    background-color: var(--grey_bg);
     justify-content: center !important;
     align-items: center !important;
 }
@@ -414,10 +413,6 @@ html{
     border: 2px solid var(--sub_color);
 }
 
-.Magazine_Content_div{
-    background: none;
-}
-
 .Magazine_Content.selected{
     height: 100vh;
     width: 100%;
@@ -448,6 +443,11 @@ html{
 
 /* Memory Style  */
 
+#main_memory{
+    background-image: url(/images/Captures/Bg_capture.jpg);
+    background-size: 100% 100%;
+}
+
 .Memory{
     width: 800px;
 }
@@ -466,6 +466,12 @@ html{
     height: 100%;
     width: 100%;
     object-fit: cover !important;
+}
+
+/* Team style */
+#main_team{
+    background-image: url(/images/Team/Bg_team.jpg);
+    background-size: 100% 100%;
 }
 
 /* About Style  */
