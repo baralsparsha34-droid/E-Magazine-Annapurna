@@ -1,11 +1,11 @@
 [
     {
-        "color":"Green",
+        "color":"Red",
         "Captain":{
-            "name":"Prayash KC",
-            "Photo":"/images/Magazine/Green_Captain.webp"
+            "name":"Pratik Khadka",
+            "Photo":"/images/Magazine/Red_Captain.webp"
         },
-        "Photo":"/images/Magazine/Green_Magazine.webp"
+        "Photo":"/images/Magazine/Red_Magazine.webp"
     },
     {
         "color":"Blue",
@@ -15,13 +15,14 @@
         },
         "Photo":"/images/Magazine/Blue_Magazine.webp"
     },
+    
     {
-        "color":"Red",
+        "color":"Green",
         "Captain":{
-            "name":"Pratik Khadka",
-            "Photo":"/images/Magazine/Red_Captain.webp"
+            "name":"Prayash KC",
+            "Photo":"/images/Magazine/Green_Captain.webp"
         },
-        "Photo":"/images/Magazine/Red_Magazine.webp"
+        "Photo":"/images/Magazine/Green_Magazine.webp"
     },
     {
         "color":"Yellow",

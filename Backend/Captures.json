@@ -5,17 +5,17 @@
         "type":"ph"
     },
     {
-        "memory":"Sulav Thapa's Effort",
+        "memory":"Sulav's Effort",
         "content":"/images/Captures/img1.webp",
         "type":"ph"
     },
     {
-        "memory":"Reejan Basnet's Effort",
+        "memory":"Reejan's Effort",
         "content":"/images/Captures/img3.webp",
         "type":"ph"
     },
     {
-        "memory":"Emanual Tulachan's Effort",
+        "memory":"Emanual's Effort",
         "content":"/images/Captures/img4.webp",
         "type":"ph"
     },
@@ -40,17 +40,77 @@
         "type":"ph"
     },
     {
-        "memory":"Wall Magazine Abhisek's Group",
+        "memory":"Yoga for Health",
+        "content":"/images/Captures/img10.webp",
+        "type":"ph"
+    },
+    {
+        "memory":"Studying for Self",
+        "content":"/images/Captures/img11.webp",
+        "type":"ph"
+    },
+    {
+        "memory":"Assembly",
+        "content":"/images/Captures/img12.webp",
+        "type":"ph"
+    },
+    {
+        "memory":"Yoga for Mind with Music",
+        "content":"/images/Captures/img13.webp",
+        "type":"ph"
+    },
+    {
+        "memory":"Peaceful and Healthy Environment",
+        "content":"/images/Captures/img14.webp",
+        "type":"ph"
+    },
+    {
+        "memory":"New Flowers of Annapurna House",
+        "content":"/images/Captures/img15.webp",
+        "type":"ph"
+    },
+    {
+        "memory":"Studying for Self",
+        "content":"/images/Captures/img16.webp",
+        "type":"ph"
+    },
+    {
+        "memory":"Having Food for Growth",
+        "content":"/images/Captures/img17.webp",
+        "type":"ph"
+    },
+    {
+        "memory":"Studying for Self",
+        "content":"/images/Captures/img18.webp",
+        "type":"ph"
+    },
+    {
+        "memory":"Abhiseks's Group on the Stage",
+        "content":"/images/Captures/img19.webp",
+        "type":"ph"
+    },
+    {
+        "memory":"Lakhe on the Stage with Abhisek",
+        "content":"/images/Captures/img20.webp",
+        "type":"ph"
+    },
+    {
+        "memory":"Reejan's Group on the Stage",
+        "content":"/images/Captures/img21.webp",
+        "type":"ph"
+    },
+    {
+        "memory":"Dance of Abhisek's Group , Video",
         "content":"/images/Captures/vid1.mp4",
         "type":"vid"
     },
     {
-        "memory":"Wall Magazine Reejan's Group",
+        "memory":"Dance of Reejan's Group , Video",
         "content":"/images/Captures/vid2.mp4",
         "type":"vid"
     },
     {
-        "memory":"Wall Magazine Binay with Niskarsha",
+        "memory":"Music of Binay with Niskarsha , Video",
         "content":"/images/Captures/vid3.mp4",
         "type":"vid"
     },
@@ -60,12 +120,12 @@
         "type":"vid"
     },
     {
-        "memory":"Making Mind Calm By Yoga and Meditation",
+        "memory":" Yoga and Meditation , Video",
         "content":"/images/Captures/vid5.mp4",
         "type":"vid"
     },
     {
-        "memory":"Saftey Training for Earthquake",
+        "memory":"Saftey Training for Earthquake , Video" ,
         "content":"/images/Captures/vid6.mp4",
         "type":"vid"
     }
