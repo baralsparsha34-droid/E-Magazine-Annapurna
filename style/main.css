@@ -436,6 +436,11 @@ html{
 
 /* Team Style  */
 
+#main_team{
+    background-image: url(/images/Team/Bg_team.webp);
+    background-size: 100% 100%;
+}
+
 .Team_Content p{
     max-width: 100%;
     white-space: wrap;
@@ -444,7 +449,7 @@ html{
 /* Memory Style  */
 
 #main_memory{
-    background-image: url(/images/Captures/Bg_capture.jpg);
+    background-image: url(/images/Captures/Bg_capture.webp);
     background-size: 100% 100%;
 }
 
@@ -466,12 +471,6 @@ html{
     height: 100%;
     width: 100%;
     object-fit: cover !important;
-}
-
-/* Team style */
-#main_team{
-    background-image: url(/images/Team/Bg_team.jpg);
-    background-size: 100% 100%;
 }
 
 /* About Style  */
@@ -650,4 +649,4 @@ html{
     .Profile_Photo{
         max-width: 90%;
     }
-}
+};
